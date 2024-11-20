@@ -1,0 +1,45 @@
+body{
+    background-image: url("https://elementor.com/marketing/wp-content/uploads/sites/9/2017/08/background-post.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}  
+ul{
+    list-style-type: none;
+    background-color: rgb(251, 243, 243);
+    margin: 0px;
+    padding: 0px;
+    height: 2%;
+    
+    
+    
+}
+li {
+    display: inline;
+    color: white;
+    margin: 20px;
+    
+}
+li a{
+    text-decoration: none;
+    color: black;
+}
+li :hover{
+    background-color: green;
+
+    color: black;
+}
+.active{
+    background-color: rgb(34, 0, 128);
+    color: red;
+    
+    
+}
+.b{
+ 
+}
+.c{
+  
+}
+.d{
+ 
+}

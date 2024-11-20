@@ -1,0 +1,43 @@
+.contan{
+    height: 700px;
+    width: 700px;
+    /* background-color: aqua; */
+    background-image: conic-gardient();
+
+    animation: rot;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    margin-left: 400px;
+    border-radius: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+
+}
+.box{
+    width: 200px;
+    height: 200px;
+     background-image: repeating-conic-gradient(red 0deg,red 10deg,yellow 10deg,yellow 20deg);
+   
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    
+   animation: rot;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    border-radius: 50%;
+    
+
+}
+ @keyframes rot {
+    
+    from{
+        transform: rotate(0);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+    
+ }

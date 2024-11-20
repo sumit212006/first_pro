@@ -1,0 +1,11 @@
+body{
+    background-color: black;
+}
+
+.box{
+    width: 800px;
+    height: 500px;
+    margin: 100px auto 10px auto;
+    border: 10px solid white;
+    background-image: linear-gradient(red,yellow);
+}
